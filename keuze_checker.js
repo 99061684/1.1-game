@@ -41,6 +41,14 @@ function keuze_checker() {
         window.open("pagina_15.html","_self");
         console.log("pagina_15, probeer vriendelijk te praten met de dorpsbewoners")
         
+    } else if(keuze1 >= "12"){
+        window.open("pagina_16.html","_self");
+        console.log("pagina_16, easter egg 1. keuzes")
+        
+    } else if(keuze1 <= "0"){
+        window.open("pagina_16.html","_self");
+        console.log("pagina_16, easter egg 1. keuzes")
+        
     } else {
         alert("je hebt niet goed een keuze opgegeven. mogelijke oorzaken: typfout of niet bestaande keuze.")
         console.log("iemand heeft niet goed een keuze opgegeven.")
@@ -50,7 +58,7 @@ function keuze_checker() {
 
 function keuze_checker2() {
     keuze2 = parseInt(prompt("geef hier jou keuze op", "schrijf hier de keuze..."));
-    if(keuze2 > 3 || keuze2 == 3) {
+    if(keuze2 > 3 && keuze2 < 5 || keuze2 === 3) {
         window.open("pagina_17.html","_self");
         console.log("pagina_17, de eeuwige marteling")
         //eeuwige marteling
@@ -59,6 +67,10 @@ function keuze_checker2() {
         window.open("pagina_18.html","_self");
         console.log("pagina_18, het luxe leven")
   
+    } //else if (keuze2 === 6){
+        //window.open("pagina_16.html","_self");
+        //console.log("pagina_16, easter egg 1. keuzes")
+        
     } else {
         alert("je hebt niet goed een keuze opgegeven. mogelijke oorzaken: typfout of niet bestaande keuze.")
         console.log("iemand heeft niet goed een keuze opgegeven.")
