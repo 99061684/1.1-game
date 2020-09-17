@@ -42,12 +42,12 @@ function keuze_checker() {
         console.log("pagina_15, probeer vriendelijk te praten met de dorpsbewoners")
         
     } else if(keuze1 >= "12"){
-        window.open("pagina_16.html","_self");
-        console.log("pagina_16, easter egg 1. keuzes")
+        window.open("pagina_19.html","_self");
+        console.log("pagina_19, easter egg 1. keuzes")
         
     } else if(keuze1 <= "0"){
-        window.open("pagina_16.html","_self");
-        console.log("pagina_16, easter egg 1. keuzes")
+        window.open("pagina_19.html","_self");
+        console.log("pagina_19, easter egg 1. keuzes")
         
     } else {
         alert("je hebt niet goed een keuze opgegeven. mogelijke oorzaken: typfout of niet bestaande keuze.")
@@ -67,10 +67,7 @@ function keuze_checker2() {
         window.open("pagina_18.html","_self");
         console.log("pagina_18, het luxe leven")
   
-    } //else if (keuze2 === 6){
-        //window.open("pagina_16.html","_self");
-        //console.log("pagina_16, easter egg 1. keuzes")
-        
+    
     } else {
         alert("je hebt niet goed een keuze opgegeven. mogelijke oorzaken: typfout of niet bestaande keuze.")
         console.log("iemand heeft niet goed een keuze opgegeven.")
